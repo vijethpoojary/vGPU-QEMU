@@ -262,4 +262,8 @@ config IOSB
 config XLNX_VERSAL_TRNG
     bool
 
+config VIJGPU
+    bool
+    depends on PCI
+
 source macio/Kconfig
